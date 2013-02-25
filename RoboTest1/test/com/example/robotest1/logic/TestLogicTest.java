@@ -17,8 +17,8 @@ public class TestLogicTest {
 
 	@Test
 	public void testPlus() {
-		int expected = 3;
-		int actual = testLogic.plus(1,  2);
+		int expected = 4;
+		int actual = testLogic.plus(1,  3);
 		assertThat(actual, is(expected));
 	}
 
